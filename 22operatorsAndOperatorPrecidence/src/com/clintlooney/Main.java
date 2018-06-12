@@ -14,8 +14,16 @@ public class Main {
             System.out.println("This isn't supposed to happen.");
         }
 
+        // Because of the possibility of mistakenly ussing an assignment operator in place of a comparison operator, it can be safer to just say if iscar
+//        boolean isCar = false;
+//        if (isCar) {
+//            System.out.println("This isn't supposed to happen.");
+//        }
+
         // Using the ternary operator:
         boolean wasCar = isCar ? true : false;
+        // This means, if wasCar is equal to iscar, return true. If not, return false.
+        // condition to evaluate ? what you'll do if it returns true : what you'll do if it returns false
 
     }
 }
