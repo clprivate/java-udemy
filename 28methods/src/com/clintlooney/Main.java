@@ -38,16 +38,28 @@ public class Main {
 
     }
 
-    public static int calculateHighScore (int score) {
+    private static int calculateHighScore (int score) {
+//        if (score >= 1000) {
+//            return 1;
+//        } else if (score >= 500) {
+//            return 2;
+//        } else if (score >= 100) {
+//            return 3;
+//        }
+//        // You don't kneed an else. You can just have the else condition be the return listed below, thus:
+//        return 4;
+
+        int position = 4; // We assume position 4 will be returned.
         if (score >= 1000) {
-            return 1;
-        } else if (score >= 500 && score < 1000) {
-            return 2;
-        } else if (score >= 100 && score < 500) {
-            return 3;
-        } else {
-            return 4;
+            position = 1;
+        } else if (score >=500) {
+            position = 2;
+        } else if (score >= 100) {
+            position = 3;
         }
+        return position;
+
+
     }
 
     public static void displayHighScorePosition (String playerName, int highScorePosition) {
