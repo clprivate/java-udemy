@@ -10,8 +10,9 @@ public class Main {
 //        System.out.println(sumDigits(9));
 //        System.out.println(sumDigits(10));
 //        System.out.println(sumDigits(999));\
-        System.out.println(isPalindrome(111));
-        System.out.println(isPalindrome(119));
+
+//        System.out.println(isPalindrome(111));
+//        System.out.println(isPalindrome(119));
     }
 
     private static int sumDigits(int number) {
@@ -58,4 +59,6 @@ public class Main {
             return false;
         }
     }
+
+
 }
