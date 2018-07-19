@@ -7,6 +7,11 @@ public class Car extends Vehicle {
     private boolean isManual;
     private int currentGear;
 
+    // Default constructor
+    public Car() {
+        this("No name entered","No size entered",4,4,4,false);
+    }
+
     public Car(String name, String size, int wheels,int doors, int gears, boolean isManual) {
         super(name,size);
         this.wheels = wheels;
@@ -17,11 +22,11 @@ public class Car extends Vehicle {
     }
 
     // Change gear
-    public void shiftGears(int currentGear) {
-        if(currentGear > gears) {
+    public void shiftGears(int gear) {
+        if(gear > gears) {
             System.out.println("Invalid gear entered");
         } else {
-            this.currentGear = currentGear;
+            this.currentGear = gear;
             System.out.println("Car.setCurrentGear -- changed to gear: " + currentGear);
         }
     }
@@ -31,13 +36,4 @@ public class Car extends Vehicle {
         move(speed, direction);
         System.out.println("Car.changeVelocity() called - Direction = " + direction + ", speed = " + speed);
     }
-
-    // stop
-    @Override
-    public void stop() {
-        super.stop();
-    }
-
-    // Steer
-
 }

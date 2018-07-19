@@ -19,9 +19,10 @@ public class Vehicle {
     }
 
     public void stop() {
-        this.currentVelocity = 0;
+        currentVelocity = 0;
         System.out.println("Vehicle.stop() called - speed reduced t0 " + currentVelocity);
     }
+
     // Constructor
     public Vehicle(String name,String size) {
         this.name = name;
