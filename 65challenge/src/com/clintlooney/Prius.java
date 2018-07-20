@@ -12,6 +12,7 @@ public class Prius extends Car {
         int newVelocity = getCurrentVelocity() + rate;
         if (newVelocity == 0) {
             stop();
+            shiftGears(1);
         } else if (newVelocity > 0 && newVelocity <= 10) {
             shiftGears(1);
         } else if (newVelocity > 10 && newVelocity <= 20) {
@@ -22,8 +23,8 @@ public class Prius extends Car {
             shiftGears(4);
         }
 
-        if(newVelocity > 9) {
-            changeVelocity(newVelocity, );
+        if(newVelocity > 0) {
+            changeVelocity(newVelocity, getCurrentDirection());
         }
     }
 }

@@ -15,7 +15,7 @@ public class Vehicle {
     }
 
     public void move(int velocity, int currentDirection) {
-        System.out.println("Vehicle.move(): Moving toward " + currentDirection + " degrees at " + currentVelocity + " degrees.");
+        System.out.println("Vehicle.move(): Moving toward " + currentDirection + " degrees at " + velocity + " mph.");
     }
 
     public void stop() {
