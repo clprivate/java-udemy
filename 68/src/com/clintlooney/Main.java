@@ -9,9 +9,11 @@ public class Main {
         Motherboard theMotherboard = new Motherboard("BJ-200","Asus",4,6,"v2.44");
 
         PC thePC = new PC(theCase,theMonitor,theMotherboard);
+
         // Access the methods of subclasses:
-        thePC.getTheMonitor().drawPixelAt(22,301,"purple");
-        thePC.getTheMotherboard().loadProgram("Windows 1.0");
-        thePC.getTheCase().pressPowerButton();
+//        thePC.getTheMonitor().drawPixelAt(22,301,"purple");
+//        thePC.getTheMotherboard().loadProgram("Windows 1.0");
+//        thePC.getTheCase().pressPowerButton();
+        thePC.powerUP();
     }
 }

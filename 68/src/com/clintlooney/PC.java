@@ -12,15 +12,28 @@ public class PC {
         this.theMotherboard = theMotherboard;
     }
 
-    public Case getTheCase() {
+    public void powerUP() {
+        getTheCase().pressPowerButton();
+        drawLogo();
+    }
+
+    private void drawLogo() {
+        System.out.println("drawlogo() called.");
+        // You can use a getter
+//        getTheMonitor().drawPixelAt(3,15,"red");
+        // OR access it directly
+         theMonitor.drawPixelAt(3,15,"red");
+    }
+
+    private Case getTheCase() {
         return theCase;
     }
 
-    public Monitor getTheMonitor() {
+    private Monitor getTheMonitor() {
         return theMonitor;
     }
 
-    public Motherboard getTheMotherboard() {
+    private Motherboard getTheMotherboard() {
         return theMotherboard;
     }
 }
