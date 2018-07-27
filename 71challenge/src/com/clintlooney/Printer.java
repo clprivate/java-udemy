@@ -48,8 +48,13 @@ public class Printer {
         return pagesPrinted;
     }
 
-    public int getPagesPrinted() {
-        return pagesPrinted;
+    public int getPagesPrinted(int pages) {
+        int pagesToPrint = pages;
+        if (isDuplex) {
+            pagesToPrint = (pages / 2) + (pages % 2);
+            System.out.println("Printing in duplex mode");
+        }
+
     }
 
     public void setPagesPrinted(int pagesPrinted) {
