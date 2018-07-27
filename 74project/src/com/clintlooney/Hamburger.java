@@ -50,7 +50,7 @@ public class Hamburger {
             System.out.println("Adding $" + addition4Price + " worth of " + addition4Name);
             hamburgerPrice += addition4Price;
         }
-        System.out.println("Total burger brice: $" + hamburgerPrice);
+        System.out.println("Total price for " + this.meat + " burger with " + this.rollType + " bun: $" + hamburgerPrice);
         return hamburgerPrice;
     }
 
