@@ -1,5 +1,7 @@
 package com.clintlooney;
 
+import org.jcp.xml.dsig.internal.dom.DOMUtils;
+
 import java.util.Scanner;
 
 public class Main {
@@ -22,12 +24,12 @@ public class Main {
 
         // A third way to initialize an array:
 
-        int[] myIntArray = new int[25];
-        // Initializing array elementsw with a for loop:
-        for (int i = 0; i < myIntArray.length; i++) {
-            myIntArray[i] = i * 10;
-        }
-        printArray(myIntArray);
+//        int[] myIntArray = new int[25];
+//        // Initializing array elementsw with a for loop:
+//        for (int i = 0; i < myIntArray.length; i++) {
+//            myIntArray[i] = i * 10;
+//        }
+//        printArray(myIntArray);
 
 
 
@@ -36,8 +38,13 @@ public class Main {
 //        System.out.println(myIntArray[6]);;
 //        System.out.println(myIntArray[8]);;
 
-//        double myDoubleArray[] = new double[10];
-        int myIntegers = getIntegers[5];
+        double myDoubleArray[] = new double[10];
+        int[] myIntegers = getIntegers(5);
+        for (int i = 0; i < myIntegers.length; i++) {
+            System.out.println("Value typed for element " + i + " was " + myIntegers[i]);
+        }
+        System.out.println("The average is " + getAverage(myIntegers));
+
     }
 
     public static void printArray(int[] array) {
@@ -47,10 +54,19 @@ public class Main {
     }
 
     public static int[] getIntegers(int number) {
-        for (int i = 0; i < number; i ++) {
-            System.out.println("Enter " + number + " integer values:\r");
-            int values = new int[number];// CLINT LEFT OFF HERE
-
+        System.out.println("Enter " + number + " integer values:\r");
+        int[] values = new int[number];
+        for (int i = 0; i < values.length; i ++) {
+            values[i] = scanner.nextInt();
         }
+        return values;
+    }
+
+    public static double getAverage(int[] array) {
+        double sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+        return (double) sum / (double) array.length;
     }
 }
