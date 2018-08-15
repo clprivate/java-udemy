@@ -17,25 +17,47 @@ public class GroceryLIst {
     }
 
     // Add array list item
-    public void modifyGroceryLIst(int position, String newItem) {
+    public void modifyGroceryItem(String currentItem, String newItem) {
+        int position = findItem(currentItem);
+        if (position >= 0) {
+            modifyGroceryItem(position, newItem);
+        }
+    }
+
+    // Making this private means that users are forced to use the modify method that takes only the item string.
+    private void modifyGroceryItem(int position, String newItem) {
         groceryList.set(position, newItem); // Add array list item
         System.out.println("Grocery item" + (position + 1) + " added: " + newItem);
     }
 
     // Remove array list item
-    public void removeGroceryItem(int position) {
-        String theItem = groceryList.get(position);
+    public void removeGroceryItem(String item) {
+        int position = findItem(item);
+        if (position >= 0) {
+            removeGroceryItem(position);
+            System.out.println(item + " removed from list");
+        }
+    }
+
+    private void removeGroceryItem(int position) {
         groceryList.remove(position); // Remove array list item
-        System.out.println(theItem = " removed from grocery list position" + (position + 1));
     }
 
     // Find array list item
-    public String findItem(String searchItem) {
+    private int findItem(String searchItem) {
         // boolean exists = groceryList.contains(searchItem); // Search array list Find array list item
-        int position = groceryList.indexOf(searchItem); // Find array list item index
+        return groceryList.indexOf(searchItem); // Find array list item index
+    }
+
+    public boolean onFile(String searchItem) {
+        int position = findItem(searchItem);
         if (position >= 0) {
-            return groceryList.get(position);
+            return true;
         }
-        return null;
+        return false;
+    }
+
+    public ArrayList<String> getGroceryList() {
+        return groceryList;
     }
 }

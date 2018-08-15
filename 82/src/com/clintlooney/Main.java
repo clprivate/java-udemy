@@ -1,5 +1,6 @@
 package com.clintlooney;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -35,6 +36,8 @@ public class Main {
                     searchForItem();
                     break;
                 case 6:
+                    processArrayLIst();
+                case 7:
                     quit = true;
                     break;
             }
@@ -59,28 +62,39 @@ public class Main {
     }
 
     public static void modifyItem() {
-        System.out.print("Enter the number of the item you want to modify: ");
-        int itemNo = scanner.nextInt();
-        scanner.nextLine();
+        System.out.print("Enter the item you want to replace: ");
+        String itemNo = scanner.nextLine();
         System.out.print("Enter replacement item: ");
         String newItem = scanner.nextLine();
-        groceryLIst.modifyGroceryLIst(itemNo - 1, newItem);
+        groceryLIst.modifyGroceryItem(itemNo, newItem);
     }
 
     public static void removeItem() {
-        System.out.print("Enter the number of the item you want to remove: ");
-        int itemNo = scanner.nextInt();
-        scanner.nextLine();
-        groceryLIst.removeGroceryItem(itemNo -1);
+        System.out.print("Enter the item you want to remove: ");
+        String itemNo = scanner.nextLine();
+        groceryLIst.removeGroceryItem(itemNo);
     }
 
     public static void searchForItem() {
         System.out.print("Enter item to search for: ");
         String searchItem = scanner.nextLine();
-        if (groceryLIst.findItem(searchItem) != null) {
+        if (groceryLIst.onFile(searchItem)) {
             System.out.println(searchItem + " present in list");
         } else {
             System.out.println(searchItem + " not present in list");
         }
+    }
+
+    public static void processArrayLIst() {
+        // Add the entire contents of the grocery list to a new array.
+        ArrayList<String> newArray = new ArrayList<String>();
+        newArray.addAll(groceryLIst.getGroceryList()); // ~Technique: copy array list
+
+        ArrayList<String> nextArray = new ArrayList<String>(groceryLIst.getGroceryList()); // Creates a new arrayList initialized to the contents of the old arrayLIst.
+
+        // Converting the contents of the arrayList into a regular array:
+        String[] myArray = new String[groceryLIst.getGroceryList().size()]; // Initialize the array to the size of the old arrayList.
+        myArray = groceryLIst.getGroceryList().toArray(myArray);
+
     }
 }
