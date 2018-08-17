@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a39c99a-a2b6-4c38-908e-925d36387da5" name="Default" comment="" />
+    <list default="true" id="e9cb19e7-aed4-4c31-92a1-49b8a91981f3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,32 +15,30 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="118" selection-start-line="20" selection-start-column="118" selection-end-line="20" selection-end-column="118" />
+            <state relative-caret-position="706">
+              <caret line="51" column="66" lean-forward="true" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
               <folding>
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#260#268#0" expanded="true" />
+                <element signature="e#1023#1032#0" expanded="true" />
+                <element signature="e#2365#2373#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MobilePhone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/clintlooney/MobilePhone.java">
+      <file leaf-file-name="IntClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/clintlooney/IntClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,40 +55,37 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/clintlooney/Contact.java" />
-        <option value="$PROJECT_DIR$/src/com/clintlooney/MobilePhone.java" />
+        <option value="$PROJECT_DIR$/src/com/clintlooney/IntClass.java" />
         <option value="$PROJECT_DIR$/src/com/clintlooney/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="12" />
-    <option name="y" value="48" />
-    <option name="width" value="624" />
-    <option name="height" value="447" />
+    <option name="x" value="13" />
+    <option name="y" value="49" />
+    <option name="width" value="623" />
+    <option name="height" value="446" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="85challengeTim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="85challengeTim" type="462c0819:PsiDirectoryNode" />
+              <item name="89" type="b2602c69:ProjectViewProjectNode" />
+              <item name="89" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="85challengeTim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="85challengeTim" type="462c0819:PsiDirectoryNode" />
+              <item name="89" type="b2602c69:ProjectViewProjectNode" />
+              <item name="89" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="85challengeTim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="85challengeTim" type="462c0819:PsiDirectoryNode" />
+              <item name="89" type="b2602c69:ProjectViewProjectNode" />
+              <item name="89" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="clintlooney" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -99,10 +94,9 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practice" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -119,7 +113,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.clintlooney.Main" />
-      <module name="85challengeTim" />
+      <module name="89" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -139,17 +133,22 @@
       <envs />
       <method />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9a39c99a-a2b6-4c38-908e-925d36387da5" name="Default" comment="" />
-      <created>1534432016981</created>
+      <changelist id="e9cb19e7-aed4-4c31-92a1-49b8a91981f3" name="Default" comment="" />
+      <created>1534519065036</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1534432016981</updated>
+      <updated>1534519065036</updated>
     </task>
     <servers />
   </component>
@@ -158,87 +157,60 @@
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32943678" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.7290117" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.7296727" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.09791667" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.09791667" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/clintlooney/IntClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="118" selection-start-line="20" selection-start-column="118" selection-end-line="20" selection-end-column="118" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clintlooney/MobilePhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="63" lean-forward="true" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clintlooney/MobilePhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="118" selection-start-line="20" selection-start-column="118" selection-end-line="20" selection-end-column="118" />
-          <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="706">
+          <caret line="51" column="66" lean-forward="true" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
+          <folding>
+            <element signature="e#260#268#0" expanded="true" />
+            <element signature="e#1023#1032#0" expanded="true" />
+            <element signature="e#2365#2373#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
