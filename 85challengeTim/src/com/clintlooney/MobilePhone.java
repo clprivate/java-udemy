@@ -1,17 +1,19 @@
 package com.clintlooney;
 
+import java.util.ArrayList;
+
 public class MobilePhone {
     private String myNumber;
-    private ArrayLIst<Contact> myContacts;
+    private ArrayList<Contact> myContacts;
 
     public MobilePhone(String myNumber) {
         this.myNumber = myNumber;
         // Initialize the ArrayLIst. The constructor is usually the right place to do this.
-        this.myContacts = new ArrayLIst<Contact>(); // Creates an empty array list. How create ArrayList with preelements already in it?
+        this.myContacts = new ArrayList<Contact>(); // Creates an empty array list. How create ArrayList with preelements already in it?
     }
 
     public boolean addNewContact(Contact contact) { // We're not setting the name and number, we're sending the method a Contact that's been created outside.
-        if(findContact(contact.getName()) >= 0) {
+        if (findContact(contact.getName()) >= 0) {
             System.out.println("Contact is already on file");
             System.out.printf("Contact not added");
             return false;
@@ -53,7 +55,7 @@ public class MobilePhone {
     private int findContacts(String contactName) {
         for (int i = 0; i < this.myContacts.size; i++) {
             Contact contact = this.myContacts.get(i);
-            if(contact.getName().equals(contactName)) {
+            if (contact.getName().equals(contactName)) {
                 return i;
             }
         }
@@ -63,9 +65,27 @@ public class MobilePhone {
     // ? Learn the difference between getting and querying.
     // Query as the public method to allow other classes to interact with contacts.
     public String queryContact(Contact contact) {
-        if(findContact(contact) >= 0) {
+        if (findContact(contact) >= 0) {
             return contact.getName();
         }
         return null;
+    }
+
+    public Contact quertyContact(String name) {
+        int position = findContact(name);
+        if (position >=0) {
+            this.myContacts.get(position);
+        }
+
+        return null;
+    }
+
+    private void printContacts() {
+        System.out.println("Printing contact list:");
+        for (int i = 0; i < this.myContacts.size(); i++) {
+            System.out.println((i + 1) + ": " +
+                    myContacts.get(i).getName() + " = " +
+                    myContacts.get(i).getPhoneNumber());
+        }
     }
 }
