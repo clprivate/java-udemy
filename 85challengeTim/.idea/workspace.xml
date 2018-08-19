@@ -29,8 +29,13 @@
       <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Contact.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="340">
               <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+=======
+            <state relative-caret-position="272">
+              <caret line="20" column="118" selection-start-line="20" selection-start-column="118" selection-end-line="20" selection-end-column="118" />
+>>>>>>> 25252212e92b7ab800f85b996fba8955c69040b0
               <folding>
                 <element signature="e#262#263#0" expanded="true" />
                 <element signature="e#289#290#0" expanded="true" />
@@ -44,8 +49,13 @@
       <file leaf-file-name="MobilePhone.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/clintlooney/MobilePhone.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="298">
               <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+=======
+            <state relative-caret-position="731">
+              <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
+>>>>>>> 25252212e92b7ab800f85b996fba8955c69040b0
             </state>
           </provider>
         </entry>
@@ -79,7 +89,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+>>>>>>> 25252212e92b7ab800f85b996fba8955c69040b0
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,12 +117,20 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practice" />
+>>>>>>> 25252212e92b7ab800f85b996fba8955c69040b0
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,7 +183,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -182,7 +204,15 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+=======
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
+>>>>>>> 25252212e92b7ab800f85b996fba8955c69040b0
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -198,17 +228,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3128#3129#0" expanded="true" />
             <element signature="e#3180#3181#0" expanded="true" />
           </folding>
+=======
+>>>>>>> 25252212e92b7ab800f85b996fba8955c69040b0
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="272">
+=======
+        <state relative-caret-position="340">
+>>>>>>> 25252212e92b7ab800f85b996fba8955c69040b0
           <caret line="20" column="118" selection-start-line="20" selection-start-column="118" selection-end-line="20" selection-end-column="118" />
           <folding>
             <element signature="e#262#263#0" expanded="true" />
@@ -226,10 +263,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/clintlooney/MobilePhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="340">
           <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+=======
+        <state relative-caret-position="272">
+          <caret line="20" column="118" selection-start-line="20" selection-start-column="118" selection-end-line="20" selection-end-column="118" />
+>>>>>>> 25252212e92b7ab800f85b996fba8955c69040b0
           <folding>
             <element signature="e#262#263#0" expanded="true" />
             <element signature="e#289#290#0" expanded="true" />
