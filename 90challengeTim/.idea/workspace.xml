@@ -24,7 +24,7 @@
       <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="442">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#503#504#0" expanded="true" />
@@ -39,8 +39,8 @@
       <file leaf-file-name="Branch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Branch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
+            <state relative-caret-position="306">
+              <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -48,8 +48,11 @@
       <file leaf-file-name="Bank.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="85">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +87,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,8 +112,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -183,12 +186,12 @@
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Messages" order="3" />
     </layout>
   </component>
@@ -196,6 +199,43 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Branch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -259,7 +299,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="442">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#503#504#0" expanded="true" />
@@ -272,15 +312,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Branch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
+        <state relative-caret-position="306">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/clintlooney/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="85">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

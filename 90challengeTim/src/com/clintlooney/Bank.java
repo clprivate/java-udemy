@@ -1,5 +1,8 @@
 package com.clintlooney;
 
+import jdk.nashorn.internal.runtime.arrays.ArrayLikeIterator;
+
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Bank {
@@ -23,19 +26,38 @@ public class Bank {
 
     public boolean addCustomer(String branchName, String customerName, double initialAmount) {
         Branch branch = findBranch(branchName);
-        if branch(!= null) {
-            
+        if (branch != null) {
+            System.out.println("Customer list for " + branchName + "branch: ");
+            ArrayList<Customer> branchCustomers = // TODO
+
+            for(int i = 0; i < ; i ++) {
+                System.out.println();
+            }
+            return true;
         }
+
+        return false;
     }
 
     private Branch findBranch(String branchName) {
-            // TODO
         for (int i = 0; i < branches.size(); i++) {
-            // TODO
+            Branch checkedBranch = branches.get(i);
+            if(checkedBranch.getName().equals(branchName)) {
+                System.out.println("Branch found: " + branchName);
+                return checkedBranch;
+            }
+            System.out.println("Branch not found");
+            return null;
         }
     }
-    // findBranch()
-    // add customer t5o branch with initial transaction amount
+
+    public boolean listCustomers(String branchName, boolean showTransactions) {
+        for(int i = 0; i < ; i++) {
+            // TODO
+        }
+        return false;
+    }
+    // add customer to branch with initial transaction amount
     // add transactions for an existing branch customer
     // show list of customers for a branch
     // show transaction list for customers in a  branch
